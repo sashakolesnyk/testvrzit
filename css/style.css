@@ -1,0 +1,282 @@
+/*reset*/
+
+@import 'reset.css';
+@import 'socialico/stylesheet.css';
+
+/*global*/
+.ajax-sending {
+	border-radius: 10px;
+	background: #fff;
+	width: 100%;
+	height: 300px;	
+	font-size: 24px;
+	display: none;
+	padding: 50px;
+}
+
+.ajax-sending p {
+	color: green;
+	text-align: center;
+}
+
+.error {
+	color: red;
+}
+
+h2 {
+	text-align: center;
+	color: #445161;
+	font-size: 30px;
+	line-height: 36px;
+	padding: 50px 0;
+}
+
+p {
+	color: #333;
+}
+
+body {
+	background: #fff;
+	font-family: Arial, sans-serif;
+}
+
+button {
+	padding: 5px 100px;
+	background: #fff;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+
+/*=== header ===*/
+
+header {
+	background: #445162;
+}
+
+.left_block {
+	float: left;
+}
+
+	.left_block h1 {
+		font-size: 60px;
+		color: #fff;
+		margin: 50px 0;
+	}
+
+	.left_block ul{
+		margin-bottom: 50px;
+	}
+
+		.left_block ul li {
+			font-size: 20px;
+			line-height: 36px;
+			list-style-type: none;
+			color: #fff
+		}
+
+.right_block {
+	margin: 50px 0;
+	height: 220px;
+	width: 470px;
+	background-color: #fff;
+	float: right;
+}
+
+/*=== section_1_(Reviews) ===*/
+
+.reviews {
+	background: #f5f5f5;
+}
+
+.table {
+	display: table;
+	border-spacing: 0px 10px;
+	border-collapse: separate;
+}
+
+.table-row {
+	display: table-row;
+}
+
+.table-cell {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.item {
+	position: relative;
+}
+
+.userpic {
+	margin-right: 30px;
+	display: inline-block;
+	background: #445161;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	border: 1px solid #445161;
+}
+
+.quote {		
+	padding: 20px 20px;
+	position: relative;
+	float: right;
+	background: #ebebeb;
+	border-radius: 5px;
+}
+
+.triangle {
+	position: absolute;
+	top: 23%;
+	left: -10px;
+	background: #ebebeb;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #ebebeb;
+	transform: rotate(45deg);
+}
+
+	.light_gray {
+		color: #989898;
+		margin-top: 10px;
+	}
+
+
+/*=== section_2_(Buy it now) ===*/
+
+.parent {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+.offer {
+	background: #445162;
+	width: 350px;
+	border-radius: 10px;
+	display: inline-block;
+	text-align: bottom;
+	vertical-align: bottom;
+	padding: 2px;
+}
+
+	.offer p {
+		color: #fff;
+		text-align: center;
+		font-size: 24px;
+		padding: 10px;
+	}
+
+	.price {
+		background: #fff;
+	}
+
+		.price p {
+			color: #445162;
+			text-align: center;
+			font-size: 40px;
+			padding: 10px;
+		}
+
+	.offer ol {
+		margin: 20px 40px;
+		list-style-type: decimal;
+	}
+
+		.offer ol li {
+			color: #fff;
+			font-size: 14px;
+			line-height: 24px;
+		}
+
+	.offer button {
+		margin: 0px 0px 20px 20px;
+		width: 300px;
+		font-size: 18px;
+		font-weight: bold;
+		color: #445161;
+	}
+
+.sidewise_corner {
+	background: #fff;
+}
+
+/*=== footer ===*/
+
+footer {
+	background: #445162;
+	margin-top:100px;
+	position:relative;
+	width:100%;
+}
+
+footer:before {
+	content:'';
+	position:absolute;
+	top:-50px;
+	width:0;
+	height:0;
+	border-bottom: 50px solid #445162; 
+	border-right: 100vw solid transparent;  
+}
+
+	footer h2 {
+		color: #fff;
+	}
+
+/*--form--*/
+form {
+	text-align: center;
+	width: 500px;
+	margin: 0px 0px 50px 150px;
+}
+
+input, button {
+	border-radius: 5px;
+	padding: 10px;
+	width: 100%;
+	margin: 10px;
+}
+
+textarea {
+	resize: none;
+	width: 100%;
+	height: 170px;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+	form button {
+		width: 140px;
+		color: #445162;
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+/*--social--*/
+
+.contacts li {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+}
+
+.contacts span {
+	font-size: 34px;
+	vertical-align: middle;
+}
+
+.contacts i {
+	font-size: 24px;
+	vertical-align: middle;
+}
+
+span {
+	font-family: 'Socialico';
+	font-size: 60px;
+	color: #fff;
+}
+
