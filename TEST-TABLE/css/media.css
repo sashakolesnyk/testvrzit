@@ -2,43 +2,14 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-	.parent {
-		display: block;
-		padding: 20px;
-		text-align: center;
+.right_block {
+		background-color: green;
 	}
-	.centered {
-		text-align: center;
-		margin: 50px auto;
-		float: none;
-	}
-	.left_align_hd {
-		text-align: left;
-		margin: auto;
-		width: 470px;
-	}
-	.left_align_ft {
-		text-align: left;
-		margin: auto;
-		padding-left: 50px;
-		width: 300px;
-	}
-	
-	.offer {
-		margin: 30px auto;
-	}
-	.offer ol {
-		text-align: left;
-	}
-	.offer button {
-		margin: 0px auto 20px auto;
-	}
-
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	
 }
 
 /* Small Devices, Tablets */
@@ -71,7 +42,7 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
+
 }
 
 /* Medium Devices, Desktops */
