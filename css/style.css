@@ -53,6 +53,15 @@ header {
 	background: #445162;
 }
 
+.right_block {
+		position: relative;
+	}
+#pos_tion {
+	position: absolute;
+	bottom: 15px;
+	left: 100px;
+}
+
 .left_block {
 	float: left;
 }
@@ -80,6 +89,25 @@ header {
 	width: 470px;
 	background-color: #fff;
 	float: right;
+	text-align: center;
+}
+#pos_tion {
+	margin-bottom: 10px;
+}
+.mod_w {
+	height: 100px;
+	width: 200px;
+	margin: 50px auto;
+	border-radius: 10px;
+	background: #445162;
+}
+.mod_w h2 {
+	color: red;
+	line-height: 45px;
+	padding: 0;
+}
+.mod_w p {
+	color: #fff;
 }
 
 /*=== section_1_(Reviews) ===*/
@@ -217,7 +245,7 @@ footer:before {
 	width:0;
 	height:0;
 	border-bottom: 50px solid #445162; 
-	border-right: 100vw solid transparent;  
+	border-right: 100% solid transparent;  
 }
 
 	footer h2 {
@@ -280,3 +308,49 @@ span {
 	color: #fff;
 }
 
+/*=== Модально окно Magnific-popup ===*/
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+
+
+/* 
+
+for zoom animation 
+uncomment this part if you haven't added this code anywhere else
+
+*/
+
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}

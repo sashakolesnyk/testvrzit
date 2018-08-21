@@ -2,6 +2,20 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	form, .right_block {
+		width: 300px;
+	}
+	.right_block {
+		position: relative;
+	}
+	#pos_tion {
+		left: 15px;
+	}
+	.mod_w {
+		position: absolute;
+		bottom: 15px;
+    	left: 47px;
+	}
 	.parent {
 		display: block;
 		padding: 20px;
@@ -15,7 +29,7 @@
 	.left_align_hd {
 		text-align: left;
 		margin: auto;
-		width: 470px;
+		width: 450px;
 	}
 	.left_align_ft {
 		text-align: left;
@@ -53,7 +67,14 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+	.left_align_hd {
+		text-align: left;
+		margin: auto;
+		width: 100%;
+	}
+	.offer {
+		width: 300px;
+	}
 }
 
 
